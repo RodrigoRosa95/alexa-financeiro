@@ -1,0 +1,254 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "financeiro",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AnotarIntent",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "anotar {frase}",
+            "anota {frase}",
+            "registrar {frase}",
+            "registra {frase}",
+            "lançar {frase}",
+            "lança {frase}",
+            "adicionar {frase}",
+            "adiciona {frase}"
+          ]
+        },
+        {
+          "name": "PagueiIntent",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "paguei {frase}",
+            "eu paguei {frase}",
+            "que paguei {frase}"
+          ]
+        },
+        {
+          "name": "GasteiIntent",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "gastei {frase}",
+            "eu gastei {frase}",
+            "que gastei {frase}"
+          ]
+        },
+        {
+          "name": "CompreiIntent",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "comprei {frase}",
+            "eu comprei {frase}",
+            "que comprei {frase}"
+          ]
+        },
+        {
+          "name": "RecebiIntent",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "recebi {frase}",
+            "eu recebi {frase}",
+            "que recebi {frase}"
+          ]
+        },
+        {
+          "name": "GanheiIntent",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "ganhei {frase}",
+            "eu ganhei {frase}",
+            "que ganhei {frase}"
+          ]
+        },
+        {
+          "name": "FormaPagamentoIntent",
+          "slots": [
+            {
+              "name": "forma",
+              "type": "FORMA_PAGAMENTO"
+            }
+          ],
+          "samples": [
+            "{forma}",
+            "com {forma}",
+            "no {forma}",
+            "na {forma}",
+            "pelo {forma}",
+            "foi no {forma}",
+            "foi com {forma}",
+            "usei {forma}",
+            "usei o {forma}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "FORMA_PAGAMENTO",
+          "values": [
+            {
+              "name": {
+                "value": "VR Pluxee",
+                "synonyms": [
+                  "pluxee",
+                  "vale refeição",
+                  "vr",
+                  "plux"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Flash",
+                "synonyms": [
+                  "cartão flash",
+                  "vale alimentação"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Pix Neon",
+                "synonyms": [
+                  "pix",
+                  "pix do neon"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Pix Sicredi",
+                "synonyms": [
+                  "pix do sicredi"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Neon Cartão Débito",
+                "synonyms": [
+                  "débito",
+                  "débito neon",
+                  "cartão neon",
+                  "cartão de débito"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sicredi Cartão Débito",
+                "synonyms": [
+                  "débito sicredi",
+                  "cartão sicredi",
+                  "débito do sicredi"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Magazine",
+                "synonyms": [
+                  "magazine luiza",
+                  "magalu",
+                  "mercado pago"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Banrisul",
+                "synonyms": [
+                  "cartão banrisul"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bradesco",
+                "synonyms": [
+                  "cartão bradesco"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Cartão de Crédito",
+                "synonyms": [
+                  "crédito"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Dinheiro em papel",
+                "synonyms": [
+                  "dinheiro",
+                  "em espécie"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
